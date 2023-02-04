@@ -1,0 +1,50 @@
+*
+{
+    font-family: sans-serif;
+    color: #FFF;
+}
+
+body
+{
+    background-color: #2B2B2B;
+}
+
+.navbar-header
+{
+    background-color: #4169E1; 
+    padding: 5em; 
+    outline: 10px solid #4169E1;
+}
+
+.navbar-header-image
+{
+    display: flex; 
+    justify-content: center;
+}
+
+#navbar-header-image
+{
+    width: 20em; 
+    height: auto; 
+    border-radius: 100%; 
+    outline: 4px solid #000;
+}
+
+.navbar-body
+{
+    display: flex; 
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.navbar-body-button
+{
+    text-decoration: none; 
+    font-size: 32px;
+    transition: 0.4s ease-in-out;
+}
+
+.navbar-body-button:hover
+{
+    text-shadow: 0 0 2px #FFF;
+}
